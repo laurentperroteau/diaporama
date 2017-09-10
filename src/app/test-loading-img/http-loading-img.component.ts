@@ -3,10 +3,10 @@ import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { Http, ResponseContentType } from '@angular/http';
 
 @Component({
-  selector: 'app-test-loading-img',
+  selector: 'app-http-loading-img',
   template: '<img alt="foo" [src]="src"/>'
 })
-export class TestLoadingImgComponent implements OnInit {
+export class HttpLoadingImgComponent implements OnInit {
   src: SafeUrl = 'assets/loader.gif';
   folder = 'assets/photos/';
 

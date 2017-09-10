@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TestLoadingImgComponent } from './test-loading-img/test-loading-img.component';
+import { HttpLoadingImgComponent } from './test-loading-img/http-loading-img.component';
+import { HtmlLoadingImgComponent } from './test-loading-img/html-loading-img.component';
+import { CarouselComponent } from './carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestLoadingImgComponent
+    HttpLoadingImgComponent,
+    HtmlLoadingImgComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
