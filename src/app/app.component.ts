@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '<app-test-loading-img></app-test-loading-img>',
+  template: '<app-carousel></app-carousel>',
+  styles: [`
+    import
+  `]
 })
 export class AppComponent {
   title = 'app';
